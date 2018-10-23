@@ -15,11 +15,15 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
 
   s.source       = { :git => "https://github.com/DogeCoding/CDAdditions.git", :tag => s.version }
 
   s.vendored_frameworks = 'CDAdditions.framework'
+
+  s.source_files = "CDAdditions/Resources/*.{h,m}"
+
+  s.requires_arc = true
 
   s.frameworks = "UIKit", "Foundation"
 
