@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/DogeCoding/CDAdditions.git", :tag => s.version }
 
-  s.vendored_frameworks = 'CDAdditions.framework'
+#  s.vendored_frameworks = 'CDAdditions.framework'
 
   s.source_files = "CDAdditions/Resources/*.{h}"
 
