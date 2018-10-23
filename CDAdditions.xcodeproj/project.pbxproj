@@ -90,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				DDD517F721788A5F00301240 /* Resources */,
-				DD911DC721786D5500EE36D6 /* CDAdditions.h */,
 				DD911DC821786D5500EE36D6 /* Info.plist */,
 			);
 			path = CDAdditions;
@@ -108,6 +107,7 @@
 		DDD517F721788A5F00301240 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DD911DC721786D5500EE36D6 /* CDAdditions.h */,
 				DD0D31E121786EF100541B27 /* CDConstant.h */,
 				DD0D31DE21786EF100541B27 /* NSString+CDAdditions.h */,
 				DD0D31E021786EF100541B27 /* NSString+CDAdditions.m */,
