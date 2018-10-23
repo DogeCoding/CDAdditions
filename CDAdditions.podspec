@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CDAdditions"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "常用系统分类，宏。"
 
   s.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'CDAdditions.framework'
 
-  s.source_files = "CDAdditions/Resources/*.{h,m}"
+  s.source_files = "CDAdditions/Resources/*.{h}"
 
   s.requires_arc = true
 
