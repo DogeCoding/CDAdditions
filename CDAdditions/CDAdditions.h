@@ -16,5 +16,5 @@ FOUNDATION_EXPORT const unsigned char CDAdditionsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CDAdditions/PublicHeader.h>
 
-#import <CDAdditions/CDConstant.h>
+#import "CDConstant.h"
 

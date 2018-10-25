@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD05357E217F270D003729DB /* CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAdditions.h; sourceTree = "<group>"; };
+		DD05358A2181A5DF003729DB /* CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAdditions.h; sourceTree = "<group>"; };
 		DD0D31D921786EF100541B27 /* UIView+CDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDAdditions.m"; sourceTree = "<group>"; };
 		DD0D31DA21786EF100541B27 /* UIDevice+CDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CDAdditions.h"; sourceTree = "<group>"; };
 		DD0D31DB21786EF100541B27 /* UIFont+CDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CDAdditions.h"; sourceTree = "<group>"; };
@@ -109,7 +109,6 @@
 		DDD517F721788A5F00301240 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DD05357E217F270D003729DB /* CDAdditions.h */,
 				DD0D31E121786EF100541B27 /* CDConstant.h */,
 				DD0D31DE21786EF100541B27 /* NSString+CDAdditions.h */,
 				DD0D31E021786EF100541B27 /* NSString+CDAdditions.m */,
@@ -119,6 +118,7 @@
 				DD0D31DF21786EF100541B27 /* UIFont+CDAdditions.m */,
 				DD0D31DC21786EF100541B27 /* UIView+CDAdditions.h */,
 				DD0D31D921786EF100541B27 /* UIView+CDAdditions.m */,
+				DD05358A2181A5DF003729DB /* CDAdditions.h */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
