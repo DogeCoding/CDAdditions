@@ -17,6 +17,7 @@
 #import "UIDevice+CDAdditions.h"
 #import "UIFont+CDAdditions.h"
 #import "UIView+CDAdditions.h"
+#import "EXTScope.h"
 
 
 #endif /* CDAdditions_h */

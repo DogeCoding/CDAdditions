@@ -20,6 +20,8 @@
 		DD1521EB218FEB9400056695 /* UIColor+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1521E9218FEB9400056695 /* UIColor+CDAdditions.m */; };
 		DD1521FC2190582200056695 /* NSObject+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1521FA2190582200056695 /* NSObject+CDAdditions.h */; };
 		DD1521FD2190582200056695 /* NSObject+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1521FB2190582200056695 /* NSObject+CDAdditions.m */; };
+		DD1521FF21913A5C00056695 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1521FE21913A5C00056695 /* EXTScope.h */; };
+		DD15220121913A7400056695 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD15220021913A7400056695 /* metamacros.h */; };
 		DD911DCE21786D5500EE36D6 /* CDAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD911DC421786D5500EE36D6 /* CDAdditions.framework */; };
 		DD911DD321786D5500EE36D6 /* CDAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD911DD221786D5500EE36D6 /* CDAdditionsTests.m */; };
 		DD911DD521786D5500EE36D6 /* CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD911DC721786D5500EE36D6 /* CDAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,6 +53,8 @@
 		DD1521F321901B0A00056695 /* CDCoordinateAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCoordinateAdditions.h; sourceTree = "<group>"; };
 		DD1521FA2190582200056695 /* NSObject+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CDAdditions.h"; sourceTree = "<group>"; };
 		DD1521FB2190582200056695 /* NSObject+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CDAdditions.m"; sourceTree = "<group>"; };
+		DD1521FE21913A5C00056695 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		DD15220021913A7400056695 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		DD911DC421786D5500EE36D6 /* CDAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD911DC721786D5500EE36D6 /* CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAdditions.h; sourceTree = "<group>"; };
 		DD911DC821786D5500EE36D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				DD0D31DF21786EF100541B27 /* UIFont+CDAdditions.m */,
 				DD0D31DC21786EF100541B27 /* UIView+CDAdditions.h */,
 				DD0D31D921786EF100541B27 /* UIView+CDAdditions.m */,
+				DD1521FE21913A5C00056695 /* EXTScope.h */,
+				DD15220021913A7400056695 /* metamacros.h */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 				DD1521FC2190582200056695 /* NSObject+CDAdditions.h in Headers */,
 				DD0D31E721786EF100541B27 /* NSString+CDAdditions.h in Headers */,
 				DD0D31EA21786EF100541B27 /* CDConstant.h in Headers */,
+				DD15220121913A7400056695 /* metamacros.h in Headers */,
+				DD1521FF21913A5C00056695 /* EXTScope.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

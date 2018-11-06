@@ -10,6 +10,8 @@
 #ifndef CDConstant_h
 #define CDConstant_h
 
+#pragma mark --- UI ---
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0\
                                                  green:((float)((rgbValue & 0xFF00) >> 8))/255.0\
                                                   blue:((float)(rgbValue & 0xFF))/255.0\
@@ -29,5 +31,16 @@
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define SCreenScale (1.0/([UIScreen mainScreen].scale))
 
+#pragma mark --- Memory ---
+
+
+#pragma mark --- Multithreading ---
+
+#define dispatch_main_async(block) \
+if ([NSThread isMainThread]) {  \
+block();    \
+} else {    \
+dispatch_async(dispatch_get_main_queue(), block);   \
+}
 
 #endif /* CDConstant_h */
