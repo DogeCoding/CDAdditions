@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,6 +28,33 @@ NS_ASSUME_NONNULL_BEGIN
  @param swiSel swizzle的方法
  */
 + (void)cd_swizzleInstanceMethodWithOriginSel:(SEL)oriSel swizzledSel:(SEL)swiSel;
+
+/*!
+ *  取得当前对象对应key的关联对象
+ *
+ *  @param key 关联对象key
+ *
+ *  @return 对应key的关联对象
+ */
+- (id)cd_objectWithAssociatedKey:(void *)key;
+
+/*!
+ *  设置关联对象给对应key
+ *
+ *  @param object 关联对象
+ *  @param key    关联对象对应key
+ *  @param retain 是否要retain该对象
+ */
+- (void)cd_setObject:(id)object forAssociatedKey:(void *)key retained:(BOOL)retain;
+
+/*!
+ *  设置关联对象给对应key
+ *
+ *  @param object 关联对象
+ *  @param key    关联对象对应key
+ *  @param policy AssociationPolicy
+ */
+- (void)cd_setObject:(id)object forAssociatedKey:(void *)key associationPolicy:(objc_AssociationPolicy)policy;
 
 @end
 

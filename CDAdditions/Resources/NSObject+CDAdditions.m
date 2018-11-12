@@ -41,4 +41,16 @@
     }
 }
 
+- (id)cd_objectWithAssociatedKey:(void *)key {
+    return objc_getAssociatedObject(self, key);
+}
+
+- (void)cd_setObject:(id)object forAssociatedKey:(void *)key retained:(BOOL)retain {
+    objc_setAssociatedObject(self, key, object, retain ? OBJC_ASSOCIATION_RETAIN_NONATOMIC : OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (void)cd_setObject:(id)object forAssociatedKey:(void *)key associationPolicy:(objc_AssociationPolicy)policy {
+    objc_setAssociatedObject(self, key, object, policy);
+}
+
 @end
