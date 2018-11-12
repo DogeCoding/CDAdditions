@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CDAdditions"
-  s.version      = "0.2.3"
+  s.version      = "0.2.4"
   s.summary      = "常用系统分类，宏。"
 
   s.description  = <<-DESC
