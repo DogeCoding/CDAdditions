@@ -24,6 +24,7 @@
 		DD15220121913A7400056695 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD15220021913A7400056695 /* metamacros.h */; };
 		DD3A666F219923520097212D /* UIScrollView+CDScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */; };
 		DD3A6670219923520097212D /* UIScrollView+CDScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */; };
+		DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD628EAF219A6435000B247F /* CDConstantSwift.swift */; };
 		DD911DCE21786D5500EE36D6 /* CDAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD911DC421786D5500EE36D6 /* CDAdditions.framework */; };
 		DD911DD321786D5500EE36D6 /* CDAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD911DD221786D5500EE36D6 /* CDAdditionsTests.m */; };
 		DD911DD521786D5500EE36D6 /* CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD911DC721786D5500EE36D6 /* CDAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +60,7 @@
 		DD15220021913A7400056695 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CDScreenShot.h"; sourceTree = "<group>"; };
 		DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CDScreenShot.m"; sourceTree = "<group>"; };
+		DD628EAF219A6435000B247F /* CDConstantSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDConstantSwift.swift; sourceTree = "<group>"; };
 		DD911DC421786D5500EE36D6 /* CDAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD911DC721786D5500EE36D6 /* CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAdditions.h; sourceTree = "<group>"; };
 		DD911DC821786D5500EE36D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				DD05358A2181A5DF003729DB /* CDAdditions.h */,
 				DD0D31E121786EF100541B27 /* CDConstant.h */,
+				DD628EAF219A6435000B247F /* CDConstantSwift.swift */,
 				DD1521F321901B0A00056695 /* CDCoordinateAdditions.h */,
 				DD1521FA2190582200056695 /* NSObject+CDAdditions.h */,
 				DD1521FB2190582200056695 /* NSObject+CDAdditions.m */,
@@ -220,6 +223,7 @@
 				TargetAttributes = {
 					DD911DC321786D5500EE36D6 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 					DD911DCC21786D5500EE36D6 = {
 						CreatedOnToolsVersion = 10.0;
@@ -272,6 +276,7 @@
 				DD0D31E221786EF100541B27 /* UIView+CDAdditions.m in Sources */,
 				DD0D31E921786EF100541B27 /* NSString+CDAdditions.m in Sources */,
 				DD1521EB218FEB9400056695 /* UIColor+CDAdditions.m in Sources */,
+				DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */,
 				DD0D31E821786EF100541B27 /* UIFont+CDAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +421,7 @@
 		DD911DD921786D5500EE36D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -434,6 +440,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NONE.CDAdditions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -441,6 +449,7 @@
 		DD911DDA21786D5500EE36D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -459,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NONE.CDAdditions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,6 +476,7 @@
 		DD911DDC21786D5500EE36D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77VA832VG5;
 				INFOPLIST_FILE = CDAdditionsTests/Info.plist;
@@ -483,6 +494,7 @@
 		DD911DDD21786D5500EE36D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77VA832VG5;
 				INFOPLIST_FILE = CDAdditionsTests/Info.plist;
