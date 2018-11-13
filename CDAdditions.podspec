@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CDAdditions"
-  s.version      = "0.2.6"
+  s.version      = "0.2.7"
   s.summary      = "常用系统分类，宏。"
 
   s.description  = <<-DESC
@@ -21,10 +21,11 @@ Pod::Spec.new do |s|
 
 #  s.vendored_frameworks = 'CDAdditions.framework'
 
+  s.public_header_files = 'CDAdditions/Resources/*.h'
   s.source_files = "CDAdditions/Resources/*.{h,m,swift}"
 
   s.requires_arc = true
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.frameworks = "UIKit", "Foundation"
 
 #  s.libraries = "sys", "objc"
