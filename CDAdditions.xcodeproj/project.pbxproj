@@ -25,9 +25,15 @@
 		DD3A666F219923520097212D /* UIScrollView+CDScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */; };
 		DD3A6670219923520097212D /* UIScrollView+CDScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */; };
 		DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD628EAF219A6435000B247F /* CDConstantSwift.swift */; };
+		DD79B5C321A5885100003C92 /* UIViewController+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */; };
+		DD79B5C421A5885100003C92 /* UIViewController+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */; };
 		DD911DCE21786D5500EE36D6 /* CDAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD911DC421786D5500EE36D6 /* CDAdditions.framework */; };
 		DD911DD321786D5500EE36D6 /* CDAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD911DD221786D5500EE36D6 /* CDAdditionsTests.m */; };
 		DD911DD521786D5500EE36D6 /* CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD911DC721786D5500EE36D6 /* CDAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA53A2221A655DD007986D8 /* UIAlertController+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA53A2021A655DD007986D8 /* UIAlertController+CDAdditions.h */; };
+		DDA53A2321A655DD007986D8 /* UIAlertController+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA53A2121A655DD007986D8 /* UIAlertController+CDAdditions.m */; };
+		DDA53A2621A656D8007986D8 /* UIApplication+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA53A2421A656D8007986D8 /* UIApplication+CDAdditions.h */; };
+		DDA53A2721A656D8007986D8 /* UIApplication+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA53A2521A656D8007986D8 /* UIApplication+CDAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +67,18 @@
 		DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CDScreenShot.h"; sourceTree = "<group>"; };
 		DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CDScreenShot.m"; sourceTree = "<group>"; };
 		DD628EAF219A6435000B247F /* CDConstantSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDConstantSwift.swift; sourceTree = "<group>"; };
+		DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CDAdditions.h"; sourceTree = "<group>"; };
+		DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CDAdditions.m"; sourceTree = "<group>"; };
 		DD911DC421786D5500EE36D6 /* CDAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD911DC721786D5500EE36D6 /* CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAdditions.h; sourceTree = "<group>"; };
 		DD911DC821786D5500EE36D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD911DCD21786D5500EE36D6 /* CDAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD911DD221786D5500EE36D6 /* CDAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAdditionsTests.m; sourceTree = "<group>"; };
 		DD911DD421786D5500EE36D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA53A2021A655DD007986D8 /* UIAlertController+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+CDAdditions.h"; sourceTree = "<group>"; };
+		DDA53A2121A655DD007986D8 /* UIAlertController+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+CDAdditions.m"; sourceTree = "<group>"; };
+		DDA53A2421A656D8007986D8 /* UIApplication+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CDAdditions.h"; sourceTree = "<group>"; };
+		DDA53A2521A656D8007986D8 /* UIApplication+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CDAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +148,10 @@
 				DD1521FB2190582200056695 /* NSObject+CDAdditions.m */,
 				DD0D31DE21786EF100541B27 /* NSString+CDAdditions.h */,
 				DD0D31E021786EF100541B27 /* NSString+CDAdditions.m */,
+				DDA53A2021A655DD007986D8 /* UIAlertController+CDAdditions.h */,
+				DDA53A2121A655DD007986D8 /* UIAlertController+CDAdditions.m */,
+				DDA53A2421A656D8007986D8 /* UIApplication+CDAdditions.h */,
+				DDA53A2521A656D8007986D8 /* UIApplication+CDAdditions.m */,
 				DD1521E8218FEB9400056695 /* UIColor+CDAdditions.h */,
 				DD1521E9218FEB9400056695 /* UIColor+CDAdditions.m */,
 				DD0D31DA21786EF100541B27 /* UIDevice+CDAdditions.h */,
@@ -144,6 +160,8 @@
 				DD0D31DF21786EF100541B27 /* UIFont+CDAdditions.m */,
 				DD0D31DC21786EF100541B27 /* UIView+CDAdditions.h */,
 				DD0D31D921786EF100541B27 /* UIView+CDAdditions.m */,
+				DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */,
+				DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */,
 				DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */,
 				DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */,
 				DD1521FE21913A5C00056695 /* EXTScope.h */,
@@ -160,7 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3A666F219923520097212D /* UIScrollView+CDScreenShot.h in Headers */,
+				DDA53A2221A655DD007986D8 /* UIAlertController+CDAdditions.h in Headers */,
+				DDA53A2621A656D8007986D8 /* UIApplication+CDAdditions.h in Headers */,
 				DD1521EA218FEB9400056695 /* UIColor+CDAdditions.h in Headers */,
+				DD79B5C321A5885100003C92 /* UIViewController+CDAdditions.h in Headers */,
 				DD0D31E521786EF100541B27 /* UIView+CDAdditions.h in Headers */,
 				DD911DD521786D5500EE36D6 /* CDAdditions.h in Headers */,
 				DD0D31E421786EF100541B27 /* UIFont+CDAdditions.h in Headers */,
@@ -276,8 +297,11 @@
 				DD0D31E221786EF100541B27 /* UIView+CDAdditions.m in Sources */,
 				DD0D31E921786EF100541B27 /* NSString+CDAdditions.m in Sources */,
 				DD1521EB218FEB9400056695 /* UIColor+CDAdditions.m in Sources */,
+				DD79B5C421A5885100003C92 /* UIViewController+CDAdditions.m in Sources */,
+				DDA53A2321A655DD007986D8 /* UIAlertController+CDAdditions.m in Sources */,
 				DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */,
 				DD0D31E821786EF100541B27 /* UIFont+CDAdditions.m in Sources */,
+				DDA53A2721A656D8007986D8 /* UIApplication+CDAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
