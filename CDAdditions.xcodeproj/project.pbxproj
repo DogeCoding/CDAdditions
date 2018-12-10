@@ -24,6 +24,8 @@
 		DD15220121913A7400056695 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD15220021913A7400056695 /* metamacros.h */; };
 		DD3A666F219923520097212D /* UIScrollView+CDScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */; };
 		DD3A6670219923520097212D /* UIScrollView+CDScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */; };
+		DD543B3621BE5B410078FA4E /* UIButton+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD543B3421BE5B410078FA4E /* UIButton+CDAdditions.h */; };
+		DD543B3721BE5B410078FA4E /* UIButton+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD543B3521BE5B410078FA4E /* UIButton+CDAdditions.m */; };
 		DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD628EAF219A6435000B247F /* CDConstantSwift.swift */; };
 		DD79B5C321A5885100003C92 /* UIViewController+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */; };
 		DD79B5C421A5885100003C92 /* UIViewController+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */; };
@@ -66,6 +68,8 @@
 		DD15220021913A7400056695 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		DD3A666D219923520097212D /* UIScrollView+CDScreenShot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CDScreenShot.h"; sourceTree = "<group>"; };
 		DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CDScreenShot.m"; sourceTree = "<group>"; };
+		DD543B3421BE5B410078FA4E /* UIButton+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CDAdditions.h"; sourceTree = "<group>"; };
+		DD543B3521BE5B410078FA4E /* UIButton+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CDAdditions.m"; sourceTree = "<group>"; };
 		DD628EAF219A6435000B247F /* CDConstantSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDConstantSwift.swift; sourceTree = "<group>"; };
 		DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CDAdditions.h"; sourceTree = "<group>"; };
 		DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CDAdditions.m"; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				DDA53A2121A655DD007986D8 /* UIAlertController+CDAdditions.m */,
 				DDA53A2421A656D8007986D8 /* UIApplication+CDAdditions.h */,
 				DDA53A2521A656D8007986D8 /* UIApplication+CDAdditions.m */,
+				DD543B3421BE5B410078FA4E /* UIButton+CDAdditions.h */,
+				DD543B3521BE5B410078FA4E /* UIButton+CDAdditions.m */,
 				DD1521E8218FEB9400056695 /* UIColor+CDAdditions.h */,
 				DD1521E9218FEB9400056695 /* UIColor+CDAdditions.m */,
 				DD0D31DA21786EF100541B27 /* UIDevice+CDAdditions.h */,
@@ -182,6 +188,7 @@
 				DDA53A2621A656D8007986D8 /* UIApplication+CDAdditions.h in Headers */,
 				DD1521EA218FEB9400056695 /* UIColor+CDAdditions.h in Headers */,
 				DD79B5C321A5885100003C92 /* UIViewController+CDAdditions.h in Headers */,
+				DD543B3621BE5B410078FA4E /* UIButton+CDAdditions.h in Headers */,
 				DD0D31E521786EF100541B27 /* UIView+CDAdditions.h in Headers */,
 				DD911DD521786D5500EE36D6 /* CDAdditions.h in Headers */,
 				DD0D31E421786EF100541B27 /* UIFont+CDAdditions.h in Headers */,
@@ -291,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD543B3721BE5B410078FA4E /* UIButton+CDAdditions.m in Sources */,
 				DD1521FD2190582200056695 /* NSObject+CDAdditions.m in Sources */,
 				DD3A6670219923520097212D /* UIScrollView+CDScreenShot.m in Sources */,
 				DD0D31E621786EF100541B27 /* UIDevice+CDAdditions.m in Sources */,
