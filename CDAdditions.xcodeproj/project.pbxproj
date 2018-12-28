@@ -16,6 +16,16 @@
 		DD0D31E821786EF100541B27 /* UIFont+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D31DF21786EF100541B27 /* UIFont+CDAdditions.m */; };
 		DD0D31E921786EF100541B27 /* NSString+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D31E021786EF100541B27 /* NSString+CDAdditions.m */; };
 		DD0D31EA21786EF100541B27 /* CDConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0D31E121786EF100541B27 /* CDConstant.h */; };
+		DD10722421D5FE1500710FA5 /* NSArray+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10722221D5FE1500710FA5 /* NSArray+CDAdditions.h */; };
+		DD10722521D5FE1500710FA5 /* NSArray+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10722321D5FE1500710FA5 /* NSArray+CDAdditions.m */; };
+		DD10722821D6035200710FA5 /* CDTypeCastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10722621D6035200710FA5 /* CDTypeCastUtil.h */; };
+		DD10722921D6035200710FA5 /* CDTypeCastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10722721D6035200710FA5 /* CDTypeCastUtil.m */; };
+		DD10722C21D604EC00710FA5 /* NSDictionary+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10722A21D604EC00710FA5 /* NSDictionary+CDAdditions.h */; };
+		DD10722D21D604EC00710FA5 /* NSDictionary+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10722B21D604EC00710FA5 /* NSDictionary+CDAdditions.m */; };
+		DD10723021D605C200710FA5 /* NSMutableArray+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10722E21D605C200710FA5 /* NSMutableArray+CDAdditions.h */; };
+		DD10723121D605C200710FA5 /* NSMutableArray+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10722F21D605C200710FA5 /* NSMutableArray+CDAdditions.m */; };
+		DD10723421D6064000710FA5 /* NSMutableDictionary+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10723221D6064000710FA5 /* NSMutableDictionary+CDAdditions.h */; };
+		DD10723521D6064000710FA5 /* NSMutableDictionary+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10723321D6064000710FA5 /* NSMutableDictionary+CDAdditions.m */; };
 		DD1521EA218FEB9400056695 /* UIColor+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1521E8218FEB9400056695 /* UIColor+CDAdditions.h */; };
 		DD1521EB218FEB9400056695 /* UIColor+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1521E9218FEB9400056695 /* UIColor+CDAdditions.m */; };
 		DD1521FC2190582200056695 /* NSObject+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1521FA2190582200056695 /* NSObject+CDAdditions.h */; };
@@ -59,6 +69,16 @@
 		DD0D31DF21786EF100541B27 /* UIFont+CDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CDAdditions.m"; sourceTree = "<group>"; };
 		DD0D31E021786EF100541B27 /* NSString+CDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDAdditions.m"; sourceTree = "<group>"; };
 		DD0D31E121786EF100541B27 /* CDConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConstant.h; sourceTree = "<group>"; };
+		DD10722221D5FE1500710FA5 /* NSArray+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CDAdditions.h"; sourceTree = "<group>"; };
+		DD10722321D5FE1500710FA5 /* NSArray+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CDAdditions.m"; sourceTree = "<group>"; };
+		DD10722621D6035200710FA5 /* CDTypeCastUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTypeCastUtil.h; sourceTree = "<group>"; };
+		DD10722721D6035200710FA5 /* CDTypeCastUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTypeCastUtil.m; sourceTree = "<group>"; };
+		DD10722A21D604EC00710FA5 /* NSDictionary+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CDAdditions.h"; sourceTree = "<group>"; };
+		DD10722B21D604EC00710FA5 /* NSDictionary+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CDAdditions.m"; sourceTree = "<group>"; };
+		DD10722E21D605C200710FA5 /* NSMutableArray+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CDAdditions.h"; sourceTree = "<group>"; };
+		DD10722F21D605C200710FA5 /* NSMutableArray+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CDAdditions.m"; sourceTree = "<group>"; };
+		DD10723221D6064000710FA5 /* NSMutableDictionary+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CDAdditions.h"; sourceTree = "<group>"; };
+		DD10723321D6064000710FA5 /* NSMutableDictionary+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CDAdditions.m"; sourceTree = "<group>"; };
 		DD1521E8218FEB9400056695 /* UIColor+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CDAdditions.h"; sourceTree = "<group>"; };
 		DD1521E9218FEB9400056695 /* UIColor+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CDAdditions.m"; sourceTree = "<group>"; };
 		DD1521F321901B0A00056695 /* CDCoordinateAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCoordinateAdditions.h; sourceTree = "<group>"; };
@@ -148,6 +168,14 @@
 				DD0D31E121786EF100541B27 /* CDConstant.h */,
 				DD628EAF219A6435000B247F /* CDConstantSwift.swift */,
 				DD1521F321901B0A00056695 /* CDCoordinateAdditions.h */,
+				DD10722221D5FE1500710FA5 /* NSArray+CDAdditions.h */,
+				DD10722321D5FE1500710FA5 /* NSArray+CDAdditions.m */,
+				DD10722A21D604EC00710FA5 /* NSDictionary+CDAdditions.h */,
+				DD10722B21D604EC00710FA5 /* NSDictionary+CDAdditions.m */,
+				DD10722E21D605C200710FA5 /* NSMutableArray+CDAdditions.h */,
+				DD10722F21D605C200710FA5 /* NSMutableArray+CDAdditions.m */,
+				DD10723221D6064000710FA5 /* NSMutableDictionary+CDAdditions.h */,
+				DD10723321D6064000710FA5 /* NSMutableDictionary+CDAdditions.m */,
 				DD1521FA2190582200056695 /* NSObject+CDAdditions.h */,
 				DD1521FB2190582200056695 /* NSObject+CDAdditions.m */,
 				DD0D31DE21786EF100541B27 /* NSString+CDAdditions.h */,
@@ -172,6 +200,8 @@
 				DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */,
 				DD1521FE21913A5C00056695 /* EXTScope.h */,
 				DD15220021913A7400056695 /* metamacros.h */,
+				DD10722621D6035200710FA5 /* CDTypeCastUtil.h */,
+				DD10722721D6035200710FA5 /* CDTypeCastUtil.m */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -187,14 +217,19 @@
 				DDA53A2221A655DD007986D8 /* UIAlertController+CDAdditions.h in Headers */,
 				DDA53A2621A656D8007986D8 /* UIApplication+CDAdditions.h in Headers */,
 				DD1521EA218FEB9400056695 /* UIColor+CDAdditions.h in Headers */,
+				DD10722C21D604EC00710FA5 /* NSDictionary+CDAdditions.h in Headers */,
 				DD79B5C321A5885100003C92 /* UIViewController+CDAdditions.h in Headers */,
+				DD10722821D6035200710FA5 /* CDTypeCastUtil.h in Headers */,
 				DD543B3621BE5B410078FA4E /* UIButton+CDAdditions.h in Headers */,
 				DD0D31E521786EF100541B27 /* UIView+CDAdditions.h in Headers */,
 				DD911DD521786D5500EE36D6 /* CDAdditions.h in Headers */,
 				DD0D31E421786EF100541B27 /* UIFont+CDAdditions.h in Headers */,
+				DD10723421D6064000710FA5 /* NSMutableDictionary+CDAdditions.h in Headers */,
+				DD10723021D605C200710FA5 /* NSMutableArray+CDAdditions.h in Headers */,
 				DD0D31E321786EF100541B27 /* UIDevice+CDAdditions.h in Headers */,
 				DD1521FC2190582200056695 /* NSObject+CDAdditions.h in Headers */,
 				DD0D31E721786EF100541B27 /* NSString+CDAdditions.h in Headers */,
+				DD10722421D5FE1500710FA5 /* NSArray+CDAdditions.h in Headers */,
 				DD0D31EA21786EF100541B27 /* CDConstant.h in Headers */,
 				DD15220121913A7400056695 /* metamacros.h in Headers */,
 				DD1521FF21913A5C00056695 /* EXTScope.h in Headers */,
@@ -300,13 +335,18 @@
 			files = (
 				DD543B3721BE5B410078FA4E /* UIButton+CDAdditions.m in Sources */,
 				DD1521FD2190582200056695 /* NSObject+CDAdditions.m in Sources */,
+				DD10723121D605C200710FA5 /* NSMutableArray+CDAdditions.m in Sources */,
 				DD3A6670219923520097212D /* UIScrollView+CDScreenShot.m in Sources */,
 				DD0D31E621786EF100541B27 /* UIDevice+CDAdditions.m in Sources */,
 				DD0D31E221786EF100541B27 /* UIView+CDAdditions.m in Sources */,
+				DD10722921D6035200710FA5 /* CDTypeCastUtil.m in Sources */,
 				DD0D31E921786EF100541B27 /* NSString+CDAdditions.m in Sources */,
 				DD1521EB218FEB9400056695 /* UIColor+CDAdditions.m in Sources */,
+				DD10722D21D604EC00710FA5 /* NSDictionary+CDAdditions.m in Sources */,
 				DD79B5C421A5885100003C92 /* UIViewController+CDAdditions.m in Sources */,
+				DD10722521D5FE1500710FA5 /* NSArray+CDAdditions.m in Sources */,
 				DDA53A2321A655DD007986D8 /* UIAlertController+CDAdditions.m in Sources */,
+				DD10723521D6064000710FA5 /* NSMutableDictionary+CDAdditions.m in Sources */,
 				DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */,
 				DD0D31E821786EF100541B27 /* UIFont+CDAdditions.m in Sources */,
 				DDA53A2721A656D8007986D8 /* UIApplication+CDAdditions.m in Sources */,
