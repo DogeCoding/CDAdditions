@@ -36,7 +36,6 @@
 		DD3A6670219923520097212D /* UIScrollView+CDScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */; };
 		DD543B3621BE5B410078FA4E /* UIButton+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD543B3421BE5B410078FA4E /* UIButton+CDAdditions.h */; };
 		DD543B3721BE5B410078FA4E /* UIButton+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD543B3521BE5B410078FA4E /* UIButton+CDAdditions.m */; };
-		DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD628EAF219A6435000B247F /* CDConstantSwift.swift */; };
 		DD79B5C321A5885100003C92 /* UIViewController+CDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */; };
 		DD79B5C421A5885100003C92 /* UIViewController+CDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */; };
 		DD911DCE21786D5500EE36D6 /* CDAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD911DC421786D5500EE36D6 /* CDAdditions.framework */; };
@@ -90,7 +89,6 @@
 		DD3A666E219923520097212D /* UIScrollView+CDScreenShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CDScreenShot.m"; sourceTree = "<group>"; };
 		DD543B3421BE5B410078FA4E /* UIButton+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CDAdditions.h"; sourceTree = "<group>"; };
 		DD543B3521BE5B410078FA4E /* UIButton+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CDAdditions.m"; sourceTree = "<group>"; };
-		DD628EAF219A6435000B247F /* CDConstantSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDConstantSwift.swift; sourceTree = "<group>"; };
 		DD79B5C121A5885100003C92 /* UIViewController+CDAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CDAdditions.h"; sourceTree = "<group>"; };
 		DD79B5C221A5885100003C92 /* UIViewController+CDAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CDAdditions.m"; sourceTree = "<group>"; };
 		DD911DC421786D5500EE36D6 /* CDAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,7 +164,6 @@
 			children = (
 				DD05358A2181A5DF003729DB /* CDAdditions.h */,
 				DD0D31E121786EF100541B27 /* CDConstant.h */,
-				DD628EAF219A6435000B247F /* CDConstantSwift.swift */,
 				DD1521F321901B0A00056695 /* CDCoordinateAdditions.h */,
 				DD10722221D5FE1500710FA5 /* NSArray+CDAdditions.h */,
 				DD10722321D5FE1500710FA5 /* NSArray+CDAdditions.m */,
@@ -347,7 +344,6 @@
 				DD10722521D5FE1500710FA5 /* NSArray+CDAdditions.m in Sources */,
 				DDA53A2321A655DD007986D8 /* UIAlertController+CDAdditions.m in Sources */,
 				DD10723521D6064000710FA5 /* NSMutableDictionary+CDAdditions.m in Sources */,
-				DD628EB0219A6435000B247F /* CDConstantSwift.swift in Sources */,
 				DD0D31E821786EF100541B27 /* UIFont+CDAdditions.m in Sources */,
 				DDA53A2721A656D8007986D8 /* UIApplication+CDAdditions.m in Sources */,
 			);
@@ -548,7 +544,6 @@
 		DD911DDC21786D5500EE36D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77VA832VG5;
 				INFOPLIST_FILE = CDAdditionsTests/Info.plist;
@@ -566,7 +561,6 @@
 		DD911DDD21786D5500EE36D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77VA832VG5;
 				INFOPLIST_FILE = CDAdditionsTests/Info.plist;
