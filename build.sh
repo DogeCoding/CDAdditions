@@ -57,7 +57,7 @@ fi
 rm -Rf "$PROJECT_ROOT/build"
 
 
-echo "####################### 更新QYVideoShootPod"
+echo "####################### 更新CDAdditions"
 
 commitInfo="source commit:  "`git rev-parse HEAD`
 
@@ -104,8 +104,8 @@ git push origin "$newVersion"
 if [[ $? -ne 0 ]]; then
 exit -1
 fi
-echo "####################### pod repo push "
-pod repo push $TARGET.podspec --verbose
+echo "####################### pod trunk push "
+pod trunk push --allow-warnings
 if [[ $? -ne 0 ]]; then
 exit -1
 fi
